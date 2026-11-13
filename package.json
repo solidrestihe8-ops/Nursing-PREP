@@ -1,0 +1,11 @@
+{
+  "name": "nursing-cbt-question-bank",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-based nursing CBT practice using the supplied study materials",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check app.js && node --check data/questions.js",
+    "test": "node --test"
+  }
+}
